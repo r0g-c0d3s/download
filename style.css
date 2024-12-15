@@ -12,10 +12,10 @@ body {
 h2 {
     color: greenyellow;
     text-align: center;
-    padding: 10vh 5vw; /* Adjust padding for better containment */
+    padding: 10vh 5vw; 
     font-size: 5vw;
-    margin: 0 auto; /* Centering the heading */
-    max-width: 90%; /* Ensures the text does not overflow on large screens */
+    margin: 0 auto; 
+    max-width: 90%; 
 }
 
 a {
@@ -40,14 +40,14 @@ a button:hover {
     transition: background-color 0.3s ease;
 }
 
-/* Media Queries for smaller screens */
+/* Media Queries */
 
-/* For tablets and smaller screens (max-width 768px) */
+/* For tablets*/
 @media (max-width: 768px) {
     h2 {
         font-size: 7vw;
         padding: 8vh 5vw;
-        max-width: 85%; /* Slightly smaller max-width */
+        max-width: 85%; 
     }
 
     a button {
@@ -56,12 +56,12 @@ a button:hover {
     }
 }
 
-/* For mobile screens (max-width 480px) */
+/* mobile screens */
 @media (max-width: 480px) {
     h2 {
         font-size: 9vw;
         padding: 6vh 4vw;
-        max-width: 80%; /* Smaller max-width on mobile */
+        max-width: 80%; 
     }
 
     a button {

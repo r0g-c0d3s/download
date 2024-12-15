@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: greenyellow;
+    text-align: center;
+    padding: 10vh 5vw; /* Adjust padding for better containment */
+    font-size: 5vw;
+    margin: 0 auto; /* Centering the heading */
+    max-width: 90%; /* Ensures the text does not overflow on large screens */
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    padding: 2vh 0;
+}
+
+a button {
+    padding: 1rem 2rem;
+    border-radius: 7px;
+    background-color: greenyellow;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+a button:hover {
+    background-color: rgb(112, 179, 12);
+    z-index: 100;
+    transform-origin: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Media Queries for smaller screens */
+
+/* For tablets and smaller screens (max-width 768px) */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 7vw;
+        padding: 8vh 5vw;
+        max-width: 85%; /* Slightly smaller max-width */
+    }
+
+    a button {
+        padding: 0.8rem 1.6rem;
+        font-size: 1.2rem;
+    }
+}
+
+/* For mobile screens (max-width 480px) */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 9vw;
+        padding: 6vh 4vw;
+        max-width: 80%; /* Smaller max-width on mobile */
+    }
+
+    a button {
+        padding: 0.6rem 1.4rem;
+        font-size: 1rem;
+    }
+}
